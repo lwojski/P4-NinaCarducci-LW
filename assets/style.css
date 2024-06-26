@@ -107,6 +107,9 @@ nav a {
 .nav-pills .nav-link {
 	color: #000
 }
+.nav-link {
+	cursor: pointer;
+}
 .item-column {
 	position: relative;
 	margin-bottom: 0 !important;
@@ -124,6 +127,7 @@ nav a {
 	height: 100%;
 	object-fit: cover;
 	padding: .5em;
+	cursor: pointer;
 }
 .mg-prev, .mg-next {
 	width: 30px;
