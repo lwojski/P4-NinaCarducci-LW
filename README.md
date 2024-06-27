@@ -1,2 +1,6 @@
-# P4-NinaCarducci-LW
-OC PROJET 4 - NINA CARDUCCI
+# OC PROJET 4 - NINA CARDUCCI
+
+## NOTES
+
+- W3C HTML Validator: check
+- W3C CSS Validator: check
