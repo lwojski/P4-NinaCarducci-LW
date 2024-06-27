@@ -30,33 +30,53 @@
 
 	<script type="application/ld+json">
 		{
-			"@context": "https://schema.org",
-			"@type": "Photographer",
-			"name": "Nina Carducci",
-			"description": "Photographe professionnelle basée à Bordeaux",
-			"url": "https://lwojski.github.io/P4-NinaCarducci-LW/",
-			"image": "https://github.com/lwojski/P4-NinaCarducci-LW/assets/images/nina.avif",
-			"telephone": "+33556677889",
-			"address": {
-				"@type": "PostalAddress",
-				"streetAddress": "68 avenue Alsace-Lorraine",
-				"addressLocality": "Bordeaux",
-				"postalCode": "33200",
-				"addressCountry": "France"
+		  "@context": "https://schema.org",
+		  "@type": "Photographer",
+		  "name": "Nina Carducci",
+		  "description": "Photographe professionnelle basée à Bordeaux",
+		  "url": "https://lwojski.github.io/P4-NinaCarducci-LW/",
+		  "image": "https://raw.githubusercontent.com/lwojski/P4-NinaCarducci-LW/master/assets/images/nina.avif",
+		  "telephone": "+33-556677889",
+		  "address": {
+			"@type": "PostalAddress",
+			"streetAddress": "68 avenue Alsace-Lorraine",
+			"addressLocality": "Bordeaux",
+			"postalCode": "33200",
+			"addressCountry": "FR"
+		  },
+		  "openingHoursSpecification": [
+			{
+			  "@type": "OpeningHoursSpecification",
+			  "dayOfWeek": "Monday",
+			  "opens": "10:00",
+			  "closes": "19:00"
 			},
-			"openingHoursSpecification": {
-				"@type": "OpeningHoursSpecification",
-				"dayOfWeek": [
-					"Monday",
-					"Tuesday",
-					"Wednesday",
-					"Thursday",
-					"Friday"
-				],
-				"opens": "10:00",
-				"closes": "19:00"
+			{
+			  "@type": "OpeningHoursSpecification",
+			  "dayOfWeek": "Tuesday",
+			  "opens": "10:00",
+			  "closes": "19:00"
 			},
-			"priceRange": "$$"
+			{
+			  "@type": "OpeningHoursSpecification",
+			  "dayOfWeek": "Wednesday",
+			  "opens": "10:00",
+			  "closes": "19:00"
+			},
+			{
+			  "@type": "OpeningHoursSpecification",
+			  "dayOfWeek": "Thursday",
+			  "opens": "10:00",
+			  "closes": "19:00"
+			},
+			{
+			  "@type": "OpeningHoursSpecification",
+			  "dayOfWeek": "Friday",
+			  "opens": "10:00",
+			  "closes": "19:00"
+			}
+		  ],
+		  "priceRange": "$$"
 		}
 	</script>
 </head>
